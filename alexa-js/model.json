@@ -1,0 +1,72 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "office room",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "CurtainsIntent",
+                    "slots": [
+                        {
+                            "name": "Position",
+                            "type": "Curtains"
+                        }
+                    ],
+                    "samples": [
+                        "{Position} open"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "Curtains",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "close"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "full"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "half"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
