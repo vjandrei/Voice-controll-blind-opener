@@ -1,5 +1,6 @@
 # Voice controlled blinds opener
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RTZhS4Dwv1M/0.jpg)](https://www.youtube.com/watch?v=RTZhS4Dwv1M)
 
 I participated in a challenge by Alexa and LEGO MINDSTORMS where I designed and executed automated voice controll blind opener.
 
